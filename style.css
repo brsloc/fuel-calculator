@@ -1,0 +1,144 @@
+*{
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #22272e;
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.container{
+
+max-width: 720px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.logo{
+    max-width:327px ;
+}
+
+.title{
+    color: white;
+    text-align: center;
+   margin: 24px 0;
+}
+
+.form label{
+color: #FFF;
+font-size: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 4px;
+    margin-bottom: 14px;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background-color:#119cea;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+}
+
+.result{
+    background-color: #119cea;
+    padding: 20px 28px;
+    text-align: center;
+    margin-top: 28px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    transition: transform 0.8s;
+}
+
+.result:hover{
+    transform: scale(1.1);
+}
+
+.hide{
+    display: none;
+}
+
+.result span{
+    color: #FFF;
+    margin-bottom: 8px;
+}
+
+#text-result{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info{
+    position: fixed;
+    right: 14px;
+    bottom: 22px;
+
+}
+
+.infoimg{
+    width: 66px;
+    height: 66px;
+}
+
+.tooltip{
+    color: #FFF;
+    background-color: #0f0f0f;
+    padding: 10px 8px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 28px;
+    display: none;
+}
+
+.info:hover .tooltip{
+    display: inline;
+}
+
+.sobre{
+    max-width: 620px;
+    background-color: #22272e;
+    padding: 24px 14px;
+    border-radius: 8px;
+}
+
+.sobre p{
+    color: #FFF;
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+
+.button-calcular{
+    background-color: #119cea;
+    height: 48px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 24px;
+    border-radius: 8px;
+
+}
