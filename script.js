@@ -21,7 +21,7 @@ function calcular(){
    }
 
    gasolinaspan.innerHTML = "Gasolina R$ " + GasolinaInput;
-   alcoolspan.innerHTML = "Álcool R$" + ÁlcoolInput;
+   alcoolspan.innerHTML = "Álcool R$ " + ÁlcoolInput;
 
 
 
